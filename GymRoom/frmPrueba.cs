@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace GymRoom
 {
-    public partial class frmNotes : Form
+    public partial class frmInicio : Form
     {
-        public frmNotes()
+        public frmInicio()
         {
             InitializeComponent();
         }
 
-        private void pictureBox10_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmPrueba_Load(object sender, EventArgs e)
         {
 
         }

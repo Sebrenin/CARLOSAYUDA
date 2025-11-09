@@ -27,7 +27,7 @@ namespace GymRoom
 
             services.AddTransient<IServiceRoutine, ServiceRoutine>();
 
-            services.AddTransient<frmRoutines>();
+            services.AddTransient <frmRoutines> ();
 
             var provider = services.BuildServiceProvider();
 

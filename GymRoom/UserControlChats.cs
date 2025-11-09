@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace GymRoom
 {
-    public partial class frmNotes : Form
+    public partial class UserControlChats : UserControl
     {
-        public frmNotes()
+        public UserControlChats()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox10_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
